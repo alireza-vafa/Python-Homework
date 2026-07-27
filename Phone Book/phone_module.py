@@ -76,5 +76,3 @@ def duplicate_check(phone_list, phone_new):
 			return False
 	else:
 		return True
-
-
