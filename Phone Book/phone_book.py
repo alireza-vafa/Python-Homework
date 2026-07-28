@@ -18,7 +18,6 @@ Phone detailes:
 	2- Family
 	3- Phone number
 	4- Information (Mobile number/work/home etc.)
-
 #######################
 Menu options:
 	1- Add contact
@@ -26,11 +25,9 @@ Menu options:
 	3- Find by name
 	4- Show phone list
 	0- Exit
-
 #######################
 Logics:
 	1- The user could enter names both in lower and upper case for registration, also in serach!
-
 #######################
 Format of phone-book report:
 
@@ -40,7 +37,6 @@ Name(10)	Family(10)		Number(10)		Information(10)
 .
 .
 ------------------------------------------------------------
-
 #######################
 '''
 
@@ -71,6 +67,7 @@ while True:
 	match option:
 
 		case 0:
+
 			break
 
 		case 1:
