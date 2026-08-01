@@ -6,8 +6,8 @@ lesson_list = [{"id":1, "name":"python", "unit":2},
 new_lesson = {"id":4, "name":"c#", "unit":2}
 
 
-# Without using for loop
-# Max. 17 creedits
+# Without using "for" loop
+# Max. 17 credits
 # No duplicate name
 # Sort by course names
 
