@@ -1,5 +1,22 @@
 class Camera:
 
+    manufacturer = "Japan"
+
+    def __init__(self, brand):
+        self.brand = brand
+
+c1 = Camera("Nikon")
+c2 = Camera("Canon")
+
+print(c1.manufacturer) # Japan
+
+c1.manufacturer = "Germany"
+
+print(c1.manufacturer) # Germany
+print(c2.manufacturer) #Japan
+print(Camera.manufacturer) #Japan
+
+'''
     def __init__(self, brand):
         self.brand = brand
         self.photo = 0
@@ -12,7 +29,7 @@ C = Camera("Nikon")
 print(Camera.__str__(C))
 #print(C.brand)
 
-
+'''
 
 '''
     def __str__(self):
